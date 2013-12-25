@@ -6,9 +6,8 @@
   <head>
     <title>Bootstrap 101 Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
     <link href="{% static 'bootstrap3/css/bootstrap.min.css' %}" rel="stylesheet">
-
+    <link href="{% static 'django_toronto/css/django_toronto.css' %}" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -17,7 +16,13 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    {% include 'homepage/_navigation.html' %}
+
+    <div id='intro'>
+      <img id="fallback" src="{% static 'django_toronto/images/image1.jpg' %}">
+
+    </div>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
