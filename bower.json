@@ -1,0 +1,21 @@
+{
+  "name": "djangotoronto2014",
+  "version": "0.0.1",
+  "homepage": "https://github.com/djangotoronto/djangotoronto2014",
+  "authors": [
+    "Ash Christopher <ash.christopher@gmail.com>"
+  ],
+  "description": "Requirements for the Django Toronto website.",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.3"
+  }
+}
