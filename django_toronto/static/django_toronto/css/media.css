@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+  #fallback {
+    display: block;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -ms-filter: blur(1px);
+    -o-filter: blur(1px);
+    filter: blur(1px);
+  }
+
+  #intro {
+    background-image: none;
+  }
+}
+
+
+@media (max-width: 992px) {
+
+  #intro {
+    background-image: url("../images/image2.jpg");
+  }
+
+}
+
+
+@media (max-width: 1200px) {
+
+  #intro {
+    background-image: url("../images/image3.jpg");
+  }
+
+}
